@@ -1,0 +1,28 @@
+.container{
+    height: calc(100vh - 100px);
+    width:100%;
+  
+    align-items: center;
+    justify-content: center;
+  
+}
+.wrapper{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    left: 0;
+   margin-right: 2px;
+    
+   
+
+}
+.imgContainer{
+    width: 200px;
+   
+  
+}
+
