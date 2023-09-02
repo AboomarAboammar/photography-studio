@@ -12,7 +12,7 @@ const Work = ({ data }) => {
                 data.map((item)=>{
                     return(
                         <div key={item.id} className={classes.imgContainer}>
-                               <Image src={item.imgUrl} width={250} height={250} alt="" objectFit="cover"/>
+                               <Image src={item.imgUrl} width={250} height={250} alt="" objectFit="cover" className={classes.work}/>
                             </div>
                     )
                 })

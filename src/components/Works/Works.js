@@ -12,6 +12,7 @@ filterByCategory(cat)
         <div className={classes.container}>
             <h1>My Works</h1>
             <div className={classes.wrapper}>
+            
                {allCategory.length >= 1 ?(allCategory.map((cat)=>{
                 return(
                     <div key={cat.id}  className={classes.cat}>
@@ -29,7 +30,7 @@ filterByCategory(cat)
                        
                
                     
-                
+              
                 
             </div>
             <Work data={data}/>

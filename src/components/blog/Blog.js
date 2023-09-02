@@ -6,7 +6,11 @@ const Blog = () => {
   return (
     <div className={classes.container}>
     <div className={classes.wrapper}>
-    <Image src={blog} className={classes.left} alt=''/>
+        <div className={classes.left}>
+        <Image src={blog} className={classes.blogimg} alt=''/>
+
+        </div>
+
       <div className={classes.right}>
         <h3>ESLAM STUDIO PHOTOGRAPHY</h3>
         <h1>Hello, Iam Eslam Mohammed, a professional photographer based on Egypt</h1>

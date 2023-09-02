@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
+import img from "../../../public/about.jpg"
 import classes from "./about.module.css"
+import Image from 'next/image'
 
 
 const About = () => {
@@ -15,7 +17,7 @@ const About = () => {
           
         </div>
         <div className={classes.right}>
-          
+        <Image src={img} alt='' className={classes.aboutImg}/>
         </div>
       </div>
     </div>
